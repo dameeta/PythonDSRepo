@@ -1,0 +1,17 @@
+list1=[]
+list2=[8,5,4.5,3,0,'data','store']
+list3=[0,3,2.9,1.2]
+list2.append(list3)
+print('Printing list1',list1)
+list1.append(list2)
+print('Printing list2',list2)
+list1.append(1)
+print('Again printing list1',list1)
+print('list1 at 0th index',list1[0])
+print('list1 at 1th index',list1[1])
+print('Accessing last element of the list1',list1[-1])
+#slicing of list
+newstringlist=['C','o','m','p','u','t','e','r']
+print(newstringlist[1:5])
+print('all data from m till end',newstringlist[2:])
+print('all data from beginning till end',newstringlist[:])
