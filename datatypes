@@ -1,0 +1,6 @@
+Numeric=>integer, float, Complex Number
+Sequence=>Strings,Tuple, List
+Bool=> two values true and false
+Set=> set of unique elements
+Dictionary=> key values
+Binary =>bytearray , bytes,memoryview
