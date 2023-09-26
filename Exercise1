@@ -34,5 +34,35 @@ In case of input data being supplied to the question, it should be assumed to be
 Question: Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number. The numbers obtained should be printed in a comma-separated sequence on a single line.
 
 Hints: In case of input data being supplied to the question, it should be assumed to be a console input.
+Fill ups
+
+# Let's create an empty list
+my_list = ____
+
+# Let's add some values
+my_list.____("Python")
+my_list.____("is ok")
+my_list.____("sometimes")
+
+# Let's remove 'sometimes'
+my_list.____("sometimes")
+
+# Let's change the second item
+my_list[____] = "is neat"
+# Let's verify that it's correct
+assert my_list == ["Python", "is neat"]
+2. Create a new list without modifiying the original one
+original = ["I", "am", "learning", "hacking", "in"]
+# Your implementation here
+modified = 
+assert original == ["I", "am", "learning", "hacking", "in"]
+assert modified ==
+list1 = [6, 12, 5]
+list2 = [6.2, 0, 14, 1]
+list3 = [0.9]
+
+# Your implementation here
+my_list = 
+print(my_list)
 
 
