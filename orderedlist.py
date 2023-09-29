@@ -9,7 +9,7 @@ faculty=[18,'Mr.Shane']
 print('Printing the data of students..')
 print('Name is: %s, Id is: %d, Country is: %s' %(students[0],students[1],students[2]))
 lst=[4,5,6,7,9,90,45,78,56]
-print(lst[1:8:2])
+print(lst[1:8:3])
 list=[1,2,3,4,5,6]
 print(list[-1])
 print(list[-4:])

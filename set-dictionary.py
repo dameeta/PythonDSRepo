@@ -1,11 +1,11 @@
-s1=set(["Unique","Values","of","Sets","Of"])
+s1=set(["Unique","Values","of","Sets","of"])
 print(s1)
 
 print('printing each elements of set')
 for i in s1:
     print(i,end=" ")
 print("\n")
-dict1 = {4: 'ClassA',5: 'ClassB',6: 'ClassC'}
+dict1 = {4: 'ClassA',5: 'ClassC',6: 'ClassC'}
 print(dict1)
 
 dict2 ={'id': 'A89',4: [4,5,6,3,99,3,4]}
