@@ -13,10 +13,10 @@ print(lst[1:8:3])
 list=[1,2,3,4,5,6]
 print(list[-1])
 print(list[-4:])
-print(list[:-2])
-print(list[-3:-1])
+print('printing :-2',list[:-2])
+print('printing -3:-1',list[-3:-1])
 list1=[4,5,6,3,2,2]
 list1[-2]=10
 print(list1)
-list1[1:3]=[44,55]
+list1[0:2]=[44,55]
 print(list1)

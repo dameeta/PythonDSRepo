@@ -13,7 +13,7 @@ print('Type of v3 is:',type(v3))
 v4=()
 print(type(v4))
 v4=("Abc","jkl","lmn","jkl")
-
+print(v4)
 print('Type of v4 is',type(v4))
 
 v5=range(4)
@@ -22,16 +22,16 @@ print(v5)
 v6={"id":8689,"name": "Krish","course":"Python"}
 print('The type of v6 is:',type(v6))
 print(v6)
-v7={"Pen","Pencil","Compass","pen"}
+v7={"Pen","Pencil","Compass","Pen"}
 print(v7)
 print('The type of v7 is',type(v7))
 
 v8=False
 print(type(v8))
 
-v9="Hello"
+v9=b"Hello"
 print(type(v9))
-v10=bytearray(5)
+v10=bytearray(4)
 print(type(v10))
 print(v10)
 

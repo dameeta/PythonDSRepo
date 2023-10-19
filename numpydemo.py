@@ -1,7 +1,6 @@
 import numpy as np
-
-arr1=np.array([[2,6,6],[9,10,11],[7,8,9]])
-
+from numpy import random 
+arr1=np.array([[2,5,6,7],[6,8,9,0],[32,3,4,7],[5,6,7,8]])
 print('Type of arr1 is:',type(arr1),'arr1 is of',arr1.ndim,'dimension')
 print(arr1)
 print('The shape of arr1 is:',arr1.shape,'The data type of an arr1 is:',arr1.dtype,'size of an arr1 is:',arr1.size)  # noqa: E501
@@ -9,7 +8,23 @@ print('The shape of arr1 is:',arr1.shape,'The data type of an arr1 is:',arr1.dty
 
 arr2=np.zeros((2,2))
 print(arr2.dtype)
-
-arr3=np.arange(1,20,2)
+print(arr2)
+arr3=np.arange(1,20,4)
 print(arr3)
-
+#arr1.reshape()
+print(arr1)
+#print(arr1.shape)
+print('Printing random data')
+var1=np.random.random((2,2))
+var2=random.randint(20,size=(2,2))
+print(var1)
+print(var2)
+a=np.array([34,67,45,23,45,56])
+#print(a)
+b=a.reshape(2,3)
+#print(b)
+print(random.randint(3,8))
+var3=np.random.randint(low=10,size=(3,4))
+print(var3)
+var4=np.random.randint(2,10,(4,5,6))
+print(var4)
